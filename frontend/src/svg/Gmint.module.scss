@@ -1,0 +1,14 @@
+.g_mint {
+  width: 163px;
+  height: 163px;
+  fill: #00ADB5;
+}
+
+@media (min-width: 780px) {
+  .g_mint {
+    width: 300px;
+    height: 300px;
+    fill: '#00ADB5';
+    z-index: -1000;
+  }
+}

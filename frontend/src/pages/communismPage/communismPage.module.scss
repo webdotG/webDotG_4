@@ -1,0 +1,141 @@
+@media (min-width: 320px) {
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #393e46;
+  }
+
+  .communism-wrapper {
+      min-width: 300px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+  }
+
+  .communism-about-wrapper{
+    padding-bottom: 35px;
+  }
+
+  .communism-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    text-align: center;
+    color: #eeeeee;
+    font-weight: 200;
+  }
+
+  .communism-about{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #eeeeee;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .add-post-link{
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #00ADB5;
+    border-radius: 8px;
+    font-size: 23px;
+    color: #eeeeee;
+    font-weight: 300;
+    text-transform: uppercase;
+    &:focus,
+    &:hover{
+      background-color: #eeeeee;
+      color: #393e46;
+    }
+  }
+
+  .communism{
+    min-width: 300px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .post-wrapper{
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #00ADB5;
+    border-radius: 8px;
+  }
+
+  .post-title{
+    font-size: 25px;
+    color: #eeeeee;
+    text-align: center;
+  }
+
+  .link-to-post{
+    width: 280px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #eeeeee;
+    font-weight: 200;
+    border: 2px solid #00ADB5;
+    border-radius: 6px;
+
+    &:focus,
+    &:hover{
+      background-color: #eeeeee;
+      color: #393e46;
+    }
+  }
+}
+
+@media (min-width: 760px) { 
+
+  .communism-title{
+    font-size: 28px;
+  }
+  .communism-about{
+    padding-left: 33px;
+    font-size: 20px;
+  }
+
+  .add-post-link{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .post-wrapper{
+    
+      width: 600px;
+      margin: 0 auto;
+        margin-bottom: 40px;
+      padding-bottom: 33px;
+      padding-top: 33px;
+      padding-left: 30x;
+  }
+
+  .post-title{
+    font-size: 28px;
+  }
+
+  .user-name{
+    font-size: 25px;
+    padding-left: 40px;
+  }
+
+  .link-to-post{
+    margin-top: 40px;
+  }
+}

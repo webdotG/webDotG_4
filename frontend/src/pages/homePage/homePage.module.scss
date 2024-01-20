@@ -1,0 +1,156 @@
+@media (min-width: 320px) {
+
+  .main_title__wrapp {
+    width: 100%;
+    background-color: #222831;
+  }
+
+  .main_title {
+    width: 300px;
+    margin: 0;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #EEEEEE;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    position: relative;
+  
+    &::after {
+      content: '';
+      width: 171px;
+      height: 3px;
+      border-radius: 5px;
+      background-color: #00ADB5;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+    }
+
+    span{
+      position: absolute;
+      right: -7px;
+    }
+
+  }
+
+  .main_title_p {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #EEEEEE;
+  }
+
+
+  .main_title_list {
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #222831;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 3px;
+      border-radius: 5px;
+      background-color: #00ADB5;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: #EEEEEE;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+  }
+
+  .main-title__wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #222831;
+  }
+  
+  .letter-g__wrapper {
+    padding-top: 150px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-title {
+    margin: 0;
+    margin-right: -14px;
+    font-size: 125px;
+    color: #EEEEEE;
+  }
+  
+  .main-title__title {
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #EEEEEE;
+  }
+  
+  .main-title__text-wrapper {
+    padding-bottom: 125px;
+    display: flex;
+  }
+  
+  .main-title__text {
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #EEEEEE;
+  }
+  
+  .main-title__text:focus,
+  .main-title__text:hover {
+    color: #00ADB5;
+  }
+
+}
+
+@media (min-width:780px) {
+  
+.main_title{
+  font-size: 100px;
+  width: 480px;
+
+  &::after{
+    width: 352px;
+  }
+  span{
+    right: -110px;
+  }
+}
+
+ .main_title_p{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 43px;
+  font-weight: 200;
+ }
+
+ .main_title_list{
+
+  li{
+    font-size: 21px;
+  }
+ }
+
+}
+

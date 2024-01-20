@@ -1,0 +1,234 @@
+@media (min-width:320px) {
+
+  .wrapper {
+    width: 100%;
+    background-color: #393e46;
+  }
+
+  .form-wrapper {
+    width: 320px;
+    min-height: 900px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+
+  .form-title {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #eeeeee;
+  }
+
+  .first-radio-wrapper,
+  .seconde-radio-wrapper,
+  .first-site-wrapper,
+  .first-telegram-wrapper,
+  .first-app-wrapper {
+    width: 320px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 190px;
+      height: 2px;
+      border-radius: 8px;
+      background-color: #00ADB5;
+      position: absolute;
+      left: 68px;
+      bottom: 0;
+    }
+  }
+
+  .checkbox,
+  .radio {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+  }
+
+  label,
+  checkbox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #eeeeee;
+
+    .custom-check {
+      // margin-top: 25px;
+      margin-right: 25px;
+    }
+
+  }
+
+  .radio+.custom-check,
+  .checkbox+.custom-check {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../svg/icon_heart_non_check.svg);
+  }
+
+  .radio:checked+.custom-check,
+  .checkbox:checked+.custom-check {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../svg/icon_heart_check.svg);
+  }
+
+  .additional-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .additional-check1,
+  .additional-check2,
+  .additional-check3,
+  .additional-check4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+
+    .custom-check {
+      margin-top: 0;
+      margin-right: 25px;
+    }
+  }
+
+  .total-select {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #eeeeee;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+  }
+
+  .total-select-text {
+    line-height: 23px;
+    text-align: left;
+    font-size: 16px;
+    color: #00ADB5;
+  }
+
+  .selected-items-list {
+    padding-left: 10px;
+  }
+
+  .selected-item {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .total-price {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #eeeeee;
+    text-transform: uppercase;
+  }
+
+  .form-submit {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 7px 12px;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    color: #eeeeee;
+    background-color: transparent;
+    border: #00ADB5 2px solid;
+    border-radius: 8px;
+    outline: none;
+
+    &:focus,
+    &:hover,
+    &:active {
+      background-color: #eeeeee;
+      color: #393e46;
+    }
+  }
+
+  .select-item-message{
+    max-width: 260px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: #00ADB5 2px solid;
+    font-size: 16px;
+    color: #eeeeee;
+    text-align: center;
+  }
+}
+
+@media (min-width:780px) { 
+
+    .form-title{
+      padding-top: 30px;
+      font-size: 24px;
+    }
+
+    .form-wrapper{
+      width: 400px;
+      margin: 0;
+    }
+
+    label{
+      padding-left: 60px;
+      font-size: 22px;
+    }
+
+  .custom-check,
+  .custom-check {
+    width: 36px;
+    height: 36px;
+    background-size: 33px;
+    background-position: center;
+  }
+
+  .total-select{
+    font-size: 23px;
+    padding-left: 60px;
+    padding-top: 40px;
+  }
+
+  .selected-items-list{
+    padding-left: 20px;
+  }
+  .selected-item{
+    font-size: 17px;
+  }
+
+  .additional-wrapper{
+    padding-left: 45px;
+  }
+
+  .total-price{
+    padding-top: 40px;
+    padding-left: 99px;
+  }
+
+  .form-submit{
+    width: 300px;
+    font-size: 21px;
+  }
+}

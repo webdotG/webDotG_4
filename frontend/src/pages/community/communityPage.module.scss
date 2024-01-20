@@ -1,0 +1,129 @@
+@media (min-width:320px) {
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background-color: #393e46;
+  }
+
+  .display-none{
+    display: none;
+  }
+  
+  .community-title{
+    font-size: 23px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .form-add-user{
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    // border: 2px solid #00ADB5;
+    // border-radius: 8px;
+  }
+
+  .community-label{
+    padding-left: 0;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .community-label-text{
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .community-label-date{
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .name-input,
+  .name-input-date{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    border: 2px solid #00ADB5;
+    border-radius: 6px;
+    outline: none;
+    color: #393e46;
+  }
+
+  .add-user{
+    padding: 5px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    border: 2px solid #00ADB5;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #eeeeee;
+  }
+
+  .community-candidates-title{
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #eeeeee;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .candidates-list{
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .candidates-item{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 5px;
+    position: relative;
+
+    &::after{
+      content: '';
+      display: block;
+      width: 250px;
+      height: 2px;
+      background-color: #00ADB5;
+      border-radius: 8px;
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+
+  .candidates-id,
+  .candidates-name,
+  .candidates-date-birthday,
+  .candidates-who-add{
+    display: flex;
+    font-size: 14px;
+    color: #eeeeee;
+    text-align: left;
+  }
+
+  .canditate-data{
+    display: block;
+    margin-left: auto;
+    padding-right: 40px;
+    font-size: 20px;
+
+  }
+
+  
+}

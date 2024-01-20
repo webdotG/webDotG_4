@@ -1,0 +1,83 @@
+@media (min-width: 320px) {
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #393e46;
+  }
+
+  .back-link {
+    width: 250px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    color: #eeeeee;
+
+    svg {
+      margin-right: 10px;
+    }
+
+    &:focus,
+    &:hover {
+      color: #00ADB5;
+
+      svg {
+        background-color: #eeeeee;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .remove-user{
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .remove-user-title {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .candidates-item {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 5px;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 250px;
+      height: 2px;
+      background-color: #00ADB5;
+      border-radius: 8px;
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+
+  .removed-user-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #eeeeee;
+    text-align: left;
+
+    span {
+      display: block;
+      margin-left: auto;
+      padding-right: 40px;
+      font-size: 20px;
+    }
+  }
+
+}

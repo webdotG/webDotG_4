@@ -1,0 +1,144 @@
+@media (min-width:320px) {
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .portfolio {
+    min-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    background-color: #393e46;
+  }
+
+  .portfolio-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    border: #00ADB5 2px solid;
+    border-radius: 8px;
+  }
+
+  .portfolio-item-title {
+    padding-bottom: 10px;
+    font-size: 23px;
+    color: #eeeeee;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .portfolio-item-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .portfolio-item-about {
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #eeeeee;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .portfolio-task-title {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #eeeeee;
+    font-weight: 300;
+  }
+
+  .task-list {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .task-item {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #eeeeee;
+    font-size: 16px;
+  }
+
+  .task-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 200;
+    border: #00ADB5 2px solid;
+    border-radius: 6px;
+    color: #eeeeee;
+  }
+}
+
+@media (min-width:760px) {
+
+  .portfolio-item {
+    border: none;
+  }
+
+  .portfolio-item-title {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .portfolio-item-img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    border-radius: 15px;
+  }
+
+  .task-link {
+    font-size: 18px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+    &:focus,
+    &:hover{
+      background-color: #eeeeee;
+      color: #393e46;
+    }
+
+  }
+
+  .portfolio-item-about {
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .portfolio-task-title {
+    font-size: 22px;
+    padding-left: 25px;
+  }
+
+  .task-list {
+  padding-left: 50px;
+  }
+
+}
